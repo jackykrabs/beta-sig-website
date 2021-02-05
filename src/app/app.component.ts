@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'beta-sig-site';
+  title = 'Beta Sigma Psi - Iota Chapter';
 }

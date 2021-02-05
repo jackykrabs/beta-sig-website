@@ -1,0 +1,16 @@
+nav {
+    background-color: #D32927;
+}
+
+#crest {
+    height: 85px;
+    width: 85px;
+}
+.navbar-brand {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    color: white;
+}
+li {
+    white-space: nowrap;
+}
