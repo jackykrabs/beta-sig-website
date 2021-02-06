@@ -3,8 +3,9 @@ nav {
 }
 
 #crest {
-    height: 85px;
-    width: 85px;
+    height: 125px;
+    width: 125px;
+    margin-top: 5px;
 }
 .navbar-brand {
     font-family: 'Roboto Slab', serif;
