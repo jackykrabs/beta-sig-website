@@ -7,13 +7,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './pages/home/home.component';
 import { WhoWeAreComponent } from './pages/who-we-are/who-we-are.component';
 import { RecruitmentComponent } from './pages/recruitment/recruitment.component';
+import { ExecComponent } from './pages/exec/exec.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     WhoWeAreComponent,
-    RecruitmentComponent
+    RecruitmentComponent,
+    ExecComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

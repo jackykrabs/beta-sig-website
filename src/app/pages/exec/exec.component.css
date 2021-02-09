@@ -1,0 +1,14 @@
+p {
+    margin: 0px;
+}
+.card {
+    height: 100%;
+    margin: 5px;
+}
+.card-body {
+    color: white;
+    background-color: #D32927;
+}
+.row {
+    margin: 5px;
+}
