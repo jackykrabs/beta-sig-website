@@ -1,3 +1,10 @@
 iframe {
     margin: 5px;
 }
+.card-body {
+    color: white;
+    background-color: #D32927;
+}
+a {
+    color: white;
+}

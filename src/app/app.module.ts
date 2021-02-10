@@ -9,6 +9,8 @@ import { WhoWeAreComponent } from './pages/who-we-are/who-we-are.component';
 import { RecruitmentComponent } from './pages/recruitment/recruitment.component';
 import { ExecComponent } from './pages/exec/exec.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AlumniComponent } from './pages/alumni/alumni.component';
 
 @NgModule({
   declarations: [
@@ -17,12 +19,14 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     WhoWeAreComponent,
     RecruitmentComponent,
     ExecComponent,
-    GalleryComponent
+    GalleryComponent,
+    AlumniComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
