@@ -6,6 +6,7 @@ import { WhoWeAreComponent } from './pages/who-we-are/who-we-are.component';
 import { ExecComponent } from './pages/exec/exec.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { AlumniComponent } from './pages/alumni/alumni.component';
+import { PresidentsCornerComponent } from './presidents-corner/presidents-corner.component';
 
 const routes: Routes = [
  { path: '', component: HomeComponent },
@@ -14,7 +15,8 @@ const routes: Routes = [
  { path: 'recruitment', component: RecruitmentComponent },
  { path: 'exec', component: ExecComponent },
  { path: 'gallery', component: GalleryComponent },
- { path: 'alumni', component: AlumniComponent }
+ { path: 'alumni', component: AlumniComponent },
+ { path: 'presidents-corner', component: PresidentsCornerComponent}
 ];
 
 @NgModule({

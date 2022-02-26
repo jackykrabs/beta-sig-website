@@ -11,6 +11,7 @@ import { ExecComponent } from './pages/exec/exec.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { HttpClientModule } from '@angular/common/http';
 import { AlumniComponent } from './pages/alumni/alumni.component';
+import { PresidentsCornerComponent } from './presidents-corner/presidents-corner.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { AlumniComponent } from './pages/alumni/alumni.component';
     ExecComponent,
     GalleryComponent,
     AlumniComponent,
+    PresidentsCornerComponent,
   ],
   imports: [
     BrowserModule,
